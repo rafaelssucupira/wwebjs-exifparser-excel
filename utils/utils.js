@@ -1,9 +1,6 @@
 import fs from 'fs/promises';
 import parser from 'exif-parser';
 import moment from 'moment-timezone';
-import SQL from '@rafaelssucupira/sequelize-sql';
-import { INSERT, SELECT } from './sqls/querys.js';
-
 class Utils {
 
 	secondsInMiliseconds(seconds) {
