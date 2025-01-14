@@ -1,7 +1,7 @@
 # wwebjs-exifparser-excel
 Este é um bot que recebe fotos em documento para capturar metadados exifs para depois retorná-los em relatorio .xlsx, desta maneira não precisamos mais que o client envie duas mensagens contendo imagem e posteriormente uma localização, resolvemos tudo de uma vez só, além disso os metadados exifs permitem que obtenhamos latitude e longitude do remetente da mensagem, algo muito bom se quisermos controlar algo ou alguém!<br/>
 Para funcionar pegandos todos os dados voce deve enviar a foto como documento 👇🏻<br/>
-![Anexando via documento](./video-demo.mp4)
+![Anexando via documento](./exif.jpg)
 <br/>
 
 > [!IMPORTANT]
