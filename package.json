@@ -1,0 +1,25 @@
+{
+  "name": "flexwind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npx vitest utils.test.js",
+    "start-private": "node index.js isGroup=false",
+		"start-group": "node index.js isGroup=true",
+    "start": "node --env-file=.env index.js"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@rafaelssucupira/sequelize-sql": "^2.1.0",
+    "exif-parser": "^0.1.12",
+    "moment-timezone": "^0.5.45",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.25.0",
+    "write-excel-file": "^2.0.9"
+  }
+}

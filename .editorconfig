@@ -1,0 +1,19 @@
+# EditorConfig ajuda a manter estilos de codificação consistentes entre diferentes editores e IDEs
+root = true
+
+# Aplicar estas configurações a todos os arquivos
+[*]
+indent_style = tab
+indent_size = 4
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# Configurações específicas para arquivos Markdown
+[*.md]
+trim_trailing_whitespace = false
+
+# Configurações específicas para arquivos JSON
+[*.json]
+indent_size = 2
