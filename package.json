@@ -6,8 +6,7 @@
   "scripts": {
     "test": "npx vitest utils.test.js",
     "start-private": "node index.js isGroup=false",
-		"start-group": "node index.js isGroup=true",
-    "start": "node --env-file=.env index.js"
+		"start-group": "node index.js isGroup=true"
 
   },
   "keywords": [],
