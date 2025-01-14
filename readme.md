@@ -7,6 +7,7 @@ Para funcionar pegandos todos os dados voce deve enviar a foto como documento �
 > [!WARNING]
 > Se voce enviar como uma foto da galeria ele não capturará os metadados, mas funcionará normalmente!
 <br/>
+
 ### Install
 ```
 git clone https://github.com/rafaelssucupira/wwebjs-exifparser-excel.git
