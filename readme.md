@@ -19,11 +19,11 @@ git clone https://github.com/rafaelssucupira/wwebjs-exifparser-excel.git
 Envie uma foto ou uma foto tirada pela camera do celular e depois envie **relatorio** para retornar o .xlsx!
 Podemos executa-los de duas formas : em um grupo ou no privado
 
-`Privado :point_down:`
+`Privado` :point_down:
 ```
 npm run start-private
 ```
-`Grupo :point_down:`
+`Grupo` :point_down:
 ```
 npm run start-group
 ```
