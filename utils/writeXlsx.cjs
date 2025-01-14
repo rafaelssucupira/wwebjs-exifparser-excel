@@ -15,7 +15,7 @@ module.exports = async function writeXlsx( result ) {
 		{ value : 'Nome', align : "center", span : 3, height : 20, alignVertical : "center", backgroundColor : "#ededed", borderColor : "#d7d0e5" },
 		null,
 		null,
-		{ value : 'Ação', align : "center", span : 4, height : 20, alignVertical : "center", backgroundColor : "#ededed", borderColor : "#d7d0e5" },
+		{ value : 'Descrição', align : "center", span : 4, height : 20, alignVertical : "center", backgroundColor : "#ededed", borderColor : "#d7d0e5" },
 		null,
 		null,
 		null,
@@ -86,7 +86,7 @@ module.exports = async function writeXlsx( result ) {
 			null,
 			null,
 			{
-				// column	: 'Ação',
+				// column	: 'Descrição',
 				type : String,
 				value	: result[i]["description"],
 				span : 4,
