@@ -7,10 +7,8 @@ Este é um bot que recebe fotos em documento para capturar `metadados exifs` par
 
 ![Anexando via documento](./exif.jpg)
 
-
 > [!IMPORTANT]
 > Se voce enviar como uma foto da galeria ele não capturará os metadados, mas funcionará normalmente, além disso voce deve está com o modo exif habilitado em seu celular!
-<br/>
 
 ### Instalação
 ```
@@ -32,4 +30,11 @@ npm run start-group
 
 ### Saída
 Produzirá um arquivo .xlsx, algo como :
+- Data/Hora Foto
+- Recebido em
+- Número
+- Nome
+- Descrição		
+- Coordenadas										
+<br/>
 ![relatorio](./report.jpg)
